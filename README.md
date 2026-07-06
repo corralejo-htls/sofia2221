@@ -1,4 +1,3 @@
-
 # Sofia — Hotel Content Management Platform (`vikahotel/dashboard`)
 
 ![Framework](https://img.shields.io/badge/Symfony-2.7-black)
@@ -31,6 +30,8 @@
 ## 1. Application overview
 
 **Sofia** is a web platform for **hotel content and website management**, built as an administration dashboard on Symfony 2.7. Its core purpose is to run a multi-hotel portal that generates and maintains **accommodation websites on subdomains** (observed pattern: `<hotel>.site-hotel.com`), with a strong focus on **SEO and search-engine indexing**.
+
+> **System designations (confirmed by the owner):** *Sofia*, *Juliette Hotels* and *vikahotel* are **the same system deployed on different servers** (independent instances of the same application). This documentation package uses "Sofia" as the generic name; the `web_imagen/` screenshots correspond to the "Juliette Hotels" instance.
 
 **Confirmed functionality** (verified against the `web_imagen/` screenshots and the code modules):
 
@@ -247,8 +248,11 @@ php app/console cache:clear --env=prod
 | P-03 | Production **OS / hosting provider** | MariaDB 12 / PostgreSQL 18 compatibility | hosting panel or `cat /etc/os-release` |
 | P-04 | Confirm whether `repo-sofia/` ≡ `codigo_repositorio__05-2024_.zip` (same version) | Source of truth for the code audit | checksum comparison or owner confirmation |
 | P-05 | Relationship between DB `db_0921` (GitHub) and `juliettehotels.sql` (Drive, 1.85 GB) — same DB, different date? | Scope of the DB protocols | inspect the large dump's header |
-| P-06 | Official commercial description of the application (public name, owner) | Final version of section 1 | owner confirmation |
+| ~~P-06~~ | ✅ **RESOLVED**: Sofia / Juliette Hotels / vikahotel are the same system on different servers (confirmed by the owner, 2026-07-06) | — | — |
 
+---
+
+*Produced by automated technical audit with source verification. EN version. Companion document: `README_es.md`.*
 
 -----
 repositorio code en google drive:
