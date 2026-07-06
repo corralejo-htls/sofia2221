@@ -250,9 +250,6 @@ php app/console cache:clear --env=prod
 | P-05 | Relationship between DB `db_0921` (GitHub) and `juliettehotels.sql` (Drive, 1.85 GB) — same DB, different date? | Scope of the DB protocols | inspect the large dump's header |
 | ~~P-06~~ | ✅ **RESOLVED**: Sofia / Juliette Hotels / vikahotel are the same system on different servers (confirmed by the owner, 2026-07-06) | — | — |
 
----
-
-*Produced by automated technical audit with source verification. EN version. Companion document: `README_es.md`.*
 
 -----
 repositorio code en google drive:
@@ -270,7 +267,8 @@ notes/MANUAL-DE-USO_API-TABLA_.md: API a desarollar (aplicar en futuras actualiz
 Source: GitHub repository corralejo-htls/sofia2221/web_imagen/ (25 PNG images):
 Method: every image was opened and visually analyzed (not just inferred from its filename). Analysis date: 2026-07-06.
 Cross-cutting finding: the application is branded "Juliette Hotels" the internal translation domain is named sofiahoteles. Confirmed by the owner: Juliette Hotels, Sofia and vikahotel are the same system deployed on different servers. The screenshots confirm the system's two faces: the administration dashboard and the generated public websites on *.site-hotel.com subdomains
+readme: https://github.com/corralejo-htls/sofia2221/blob/70b7f17c4e86fa42675155dff331c00b8d579e8e/web_imagen/_menu-images-guide.md
 
 -----
 
-*Produced by automated technical audit with source verification. EN version. Companion document: `README_es.md`.*
+
