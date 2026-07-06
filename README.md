@@ -263,7 +263,10 @@ consultas_SQL_.md: consultas varias SQL.
 notes/MANUAL-DE-USO_API-ACTUALIZACIÓN-DE-CONTENIDO.md: API a desarollar en Aplicacion (aplicar en futuras actualizaciones).
 notes/MANUAL-DE-USO_API-TABLA_.md: API a desarollar (aplicar en futuras actualizaciones).
 -----
+Source: GitHub repository corralejo-htls/sofia2221/web_imagen/ (25 PNG images):
+Method: every image was opened and visually analyzed (not just inferred from its filename). Analysis date: 2026-07-06.
+Cross-cutting finding: the application is branded "Juliette Hotels" the internal translation domain is named sofiahoteles. Confirmed by the owner: Juliette Hotels, Sofia and vikahotel are the same system deployed on different servers. The screenshots confirm the system's two faces: the administration dashboard and the generated public websites on *.site-hotel.com subdomains
 
----
+-----
 
 *Produced by automated technical audit with source verification. EN version. Companion document: `README_es.md`.*
